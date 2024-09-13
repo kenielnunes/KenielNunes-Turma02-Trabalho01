@@ -1,27 +1,32 @@
-# JEST Unit Tests
+# Avaliação Testes Unitários (Jest)
 
-## GitHub Actions
+## 💻 Pré-Requisitos
 
-[![Build and Tests](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml/badge.svg?branch=master)](https://github.com/ugioni/unit-tests-jest/actions/workflows/node.js.yml)
+- Node version 20+
+- Git
 
-## SonarCloud
+## 🚀 Começando
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ugioni_unit-tests-jest&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=ugioni_unit-tests-jest)
+### Clone o projeto
 
-## Getting Started
+```bash
+git clone https://github.com/kenielnunes/KenielNunes-Turma02-Trabalho01
+```
 
-In order to execute this project you must follow the steps below:
+### Instale as dependências
 
-1. Install [Node JS](https://nodejs.org/) (version >= 20.x)
-1. Run `npm install` to install all the project dependencies
-1. Run `npm run test` to execute the entire test suite
-1. Run `npm run coverage` to execute the entire test suite with coverage
+```bash
+npm install
+```
 
-All execution artifacts can be found in `./coverage`, if you want to remove these files run `npm run clean`.
+### Execute os testes
 
-## Project Structure
-</br>
-<ul>
-    <li>src: source code</li>
-    <li>test: unit test files</li>
-</ul>
+```bash
+npm run test
+```
+
+### Gerar o coverage
+
+```bash
+npm run coverage
+```
